@@ -4,7 +4,7 @@ const useFetch = (url) => {
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
 
-    useEffect = (() => {
+    useEffect(() => {
         const fetchFunction = async () => {
             try {
                 const JWTtoken = localStorage.getItem('fetchKey');
