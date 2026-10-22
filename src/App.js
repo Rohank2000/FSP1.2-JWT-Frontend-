@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import useFetch from './useFetch';
 
 function App() {
   const [secret, setSecret] = useState("");
